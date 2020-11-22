@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1050778906766",
+    "firebase_url": "https://ivvs-43f4d.firebaseio.com",
+    "project_id": "ivvs-43f4d",
+    "storage_bucket": "ivvs-43f4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050778906766:android:171380261b8610960999df",
+        "android_client_info": {
+          "package_name": "com.igor.ivvs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050778906766-2k7lr83ic7ip4v1hkt9u9a7imil4iqu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXVnBQ6I-q0y5hsMmscUOV2zPU7PWzLjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050778906766-2k7lr83ic7ip4v1hkt9u9a7imil4iqu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

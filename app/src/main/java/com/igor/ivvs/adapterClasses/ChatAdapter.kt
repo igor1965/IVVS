@@ -63,7 +63,7 @@ class ChatAdapter (
                 holder.right_image_view!!.visibility = View.VISIBLE
                 Picasso.get().load(chat.getUrl()).into(holder.right_image_view)
             }
-            //image mesage - left side
+            //image message - left side
             else if (!chat.getSender().equals(firebaseUser!!.uid))
             {
                 holder.show_text_message!!.visibility = View.GONE
@@ -79,7 +79,7 @@ class ChatAdapter (
         //sent and seen message
         if (position == mChatList.size - 1)
         {
-           if (chat.isIsseen())
+           if (chat.isIsSeen())
            {
                holder.text_seen!!.text = "Seen"
                if (chat.getMessage().equals("sent you an image")&& !chat.getUrl().equals(""))
@@ -104,10 +104,6 @@ class ChatAdapter (
         {
             holder.text_seen!!.visibility = View.GONE
         }
-
-
-
-
     }
 
     override fun getItemCount(): Int {
@@ -131,8 +127,6 @@ class ChatAdapter (
     }
 
     override fun getItemViewType(position: Int): Int {
-
-
 
 
         return if(mChatList[position].getSender().equals(firebaseUser!!.uid))

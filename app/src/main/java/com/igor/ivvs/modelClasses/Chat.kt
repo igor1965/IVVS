@@ -4,7 +4,7 @@ class Chat {
     private var sender: String = ""
     private var message: String = ""
     private var receiver: String = ""
-    private var isseen: Boolean = false
+    private var isseen = false
     private var url: String = ""
     private var messageId: String = ""
 
@@ -20,7 +20,7 @@ class Chat {
         this.sender = sender
         this.message = message
         this.receiver = receiver
-        this.isseen = false
+        this.isseen = isseen
         this.url = url
         this.messageId = messageId
     }
@@ -42,10 +42,10 @@ class Chat {
     fun  setReceiver(receiver: String?){
         this.receiver = receiver!!
     }
-    fun isIsseen():Boolean{
+    fun isIsSeen():Boolean{
         return isseen
     }
-    fun  setIsSeen(isseen: Boolean){
+    fun  setIsSeen(isseen: Boolean?){
         this.isseen = isseen!!
     }
     fun getUrl():String?{
